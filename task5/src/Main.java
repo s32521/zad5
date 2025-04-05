@@ -17,7 +17,7 @@ public class Main {
         system.dokonajRezerwacji(klient1, teatr);
         system.dokonajRezerwacji(klient2, koncert);
 // Wyświetl rezerwacje klienta
-        System.out.println("Rezerwacje klienta " + klient1.getImię()
+        System.out.println("Rezerwacje klienta " + klient1.getImie()
                 + " " + klient1.getNazwisko() + ":");
         klient1.wyświetlRezerwacje();
 // Pobierz referencję do wydarzenia z systemu
@@ -28,10 +28,10 @@ public class Main {
         koncertRef.setCena(150.0);
 // Sprawdź czy zmiany są widoczne w rezerwacjach klientów
         System.out.println("\nRezerwacje klienta " +
-                        klient1.getImię() + " " + klient1.getNazwisko() + " po zmianie ceny:");
+                        klient1.getImie() + " " + klient1.getNazwisko() + " po zmianie ceny:");
         klient1.wyświetlRezerwacje();
         System.out.println("\nRezerwacje klienta " +
-                        klient2.getImię() + " " + klient2.getNazwisko() + " po zmianie ceny:");
+                        klient2.getImie() + " " + klient2.getNazwisko() + " po zmianie ceny:");
         klient2.wyświetlRezerwacje();
 
     }
